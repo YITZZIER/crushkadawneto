@@ -1,0 +1,83 @@
+body {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: rgb(51, 51, 51);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 250px;
+    padding: 30px;
+    font-size: large;
+}
+
+.button1 {
+    border: none;
+    padding: 10px;
+    width: 100px;
+    background: rgb(61, 231, 61);
+}
+
+.button2 {
+    border: none;
+    padding: 10px;
+    width: 100px;
+    background: rgb(233, 46, 46);
+}
+
+.button2:active {
+    margin-top: 100px;
+}
+
+.close-tab {
+    position: absolute;
+    display: flex;
+}
+
+.close-tab button {
+    position: absolute;
+    width: 110px;
+    padding: 5px;
+    border-radius: 7px;
+    border-bottom: 2px solid black;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.close-tab button:hover {
+    background: rgb(214, 214, 214);
+}
+
+.restart-tab {
+    position: absolute;
+    display: flex;
+}
+
+.restart-tab button {
+    position: absolute;
+    width: 110px;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 7px;
+    border-bottom: 2px solid black;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.restart-tab button:hover {
+    background: rgb(214, 214, 214);
+}
+
+@media (max-width: 1300px) {
+    .m6901 {
+        margin-top: 700px;
+    }
+
+    .m69001 {
+        margin-left: 255px;
+        margin-bottom: -300px;
+    }
+}
